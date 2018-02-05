@@ -16,7 +16,7 @@ function findNb(m) {
     let numberOfCubes = 0
     let loopSum = 0
     while (loopSum < totalVolume) {
-    loopSum += Math.pow(numberOfCubes + 1, 3)
+    loopSum += Math.pow(numberOfCubes + 1, 3)  //or use **3
     numberOfCubes++
     }
     if (totalVolume === loopSum) {
